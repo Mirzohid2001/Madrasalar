@@ -1,0 +1,509 @@
+:root {
+  --bg: #071226;
+  --surface: #0e203a;
+  --surface-soft: #173254;
+  --text: #eef3ff;
+  --muted: #b8c9e6;
+  --primary: #1ea6c8;
+  --primary-strong: #0f5f8e;
+  --accent: #e1b56f;
+  --accent-soft: #f1d7a6;
+  --radius-xl: 1.25rem;
+  --radius-lg: 1rem;
+  --shadow-soft: 0 10px 30px rgba(2, 11, 24, 0.38);
+  --shadow-strong: 0 18px 45px rgba(0, 0, 0, 0.45);
+  --transition: 0.35s ease;
+  --font-body: "Inter", sans-serif;
+  --font-display: "Cinzel", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  background:
+    radial-gradient(circle at 85% 10%, rgba(30, 166, 200, 0.18), transparent 32%),
+    radial-gradient(circle at 10% 35%, rgba(225, 181, 111, 0.1), transparent 38%),
+    linear-gradient(180deg, #071226 0%, #08172e 100%);
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.08;
+  background-image:
+    radial-gradient(circle at 25px 25px, rgba(225, 181, 111, 0.5) 2px, transparent 2px),
+    radial-gradient(circle at 75px 75px, rgba(30, 166, 200, 0.45) 2px, transparent 2px);
+  background-size: 100px 100px;
+  z-index: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.premium-nav {
+  backdrop-filter: blur(10px);
+  background: rgba(7, 18, 38, 0.82);
+  border-bottom: 1px solid rgba(225, 181, 111, 0.25);
+  transition: background var(--transition), box-shadow var(--transition);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+}
+
+.premium-nav .navbar-brand {
+  letter-spacing: 0.3px;
+  color: var(--accent-soft);
+  text-shadow: 0 0 20px rgba(225, 181, 111, 0.25);
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+}
+
+.nav-link-text {
+  color: rgba(238, 243, 255, 0.84);
+  font-weight: 500;
+}
+
+.nav-link-text:hover,
+.nav-link-text.active {
+  color: var(--accent-soft);
+}
+
+.lang-switcher {
+  display: inline-flex;
+  gap: 0.4rem;
+  background: rgba(225, 181, 111, 0.08);
+  border: 1px solid rgba(225, 181, 111, 0.3);
+  border-radius: 999px;
+  padding: 0.25rem;
+}
+
+.lang-btn {
+  border: 0;
+  border-radius: 999px;
+  color: var(--text);
+  background: transparent;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.45rem 0.75rem;
+  transition: all var(--transition);
+}
+
+.lang-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.lang-btn.active {
+  background: linear-gradient(135deg, var(--primary), var(--primary-strong));
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(30, 166, 200, 0.35);
+}
+
+.hero-section,
+.monument-hero {
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-section {
+  background: url("../images/lyabi-hauz.png")
+    center/cover no-repeat;
+}
+
+.monument-hero {
+  min-height: 62vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 22% 20%, rgba(225, 181, 111, 0.18), transparent 33%),
+    radial-gradient(circle at 80% 30%, rgba(30, 166, 200, 0.22), transparent 42%),
+    linear-gradient(180deg, rgba(3, 10, 23, 0.35) 0%, rgba(3, 10, 23, 0.92) 100%);
+}
+
+.hero-content,
+.monument-hero-content {
+  position: relative;
+  z-index: 1;
+  animation: riseIn 0.95s ease both;
+}
+
+.hero-content::before,
+.monument-hero-content::before {
+  content: "";
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(320px, 75vw);
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0.85;
+}
+
+.hero-kicker {
+  color: var(--accent-soft);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  font-size: 0.85rem;
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.08;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  font-family: var(--font-display);
+  letter-spacing: 0.6px;
+  text-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.hero-subtitle {
+  max-width: 720px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.btn-hero {
+  border: 0;
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent), #c8954a);
+  padding: 0.85rem 1.4rem;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: transform var(--transition), box-shadow var(--transition), filter var(--transition);
+}
+
+.btn-hero:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(225, 181, 111, 0.28);
+  filter: brightness(1.05);
+}
+
+.main-content {
+  position: relative;
+  z-index: 2;
+}
+
+.section-heading h2 {
+  font-size: clamp(1.7rem, 3.5vw, 2.5rem);
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.6rem;
+  font-family: var(--font-display);
+  color: var(--accent-soft);
+}
+
+.section-heading h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 78px;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+}
+
+.section-heading p {
+  color: var(--muted);
+  max-width: 620px;
+  margin: 0.8rem auto 0;
+}
+
+.monument-card {
+  background:
+    linear-gradient(180deg, rgba(20, 43, 71, 0.92) 0%, rgba(10, 27, 48, 0.98) 100%);
+  border: 1px solid rgba(225, 181, 111, 0.22);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  height: 100%;
+  box-shadow: var(--shadow-soft);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  position: relative;
+}
+
+.monument-card::before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  border: 1px solid rgba(225, 181, 111, 0.16);
+  border-radius: calc(var(--radius-xl) - 0.35rem);
+  pointer-events: none;
+}
+
+.monument-card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: var(--shadow-strong);
+  border-color: rgba(225, 181, 111, 0.55);
+}
+
+.monument-card-image-wrap {
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 16 / 10;
+}
+
+.monument-card-image-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 45%, rgba(5, 16, 30, 0.75) 100%);
+}
+
+.monument-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+}
+
+.monument-card:hover .monument-card-image {
+  transform: scale(1.08);
+}
+
+.monument-card-body {
+  padding: 1.1rem;
+}
+
+.monument-card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  color: var(--accent-soft);
+}
+
+.monument-card-text {
+  color: var(--muted);
+  min-height: 58px;
+  margin-bottom: 1rem;
+}
+
+.btn-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 999px;
+  border: 1px solid rgba(225, 181, 111, 0.56);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.52rem 1rem;
+  transition: all var(--transition);
+}
+
+.btn-card:hover {
+  background: rgba(225, 181, 111, 0.15);
+  border-color: rgba(241, 215, 166, 0.95);
+  transform: translateX(3px);
+}
+
+.premium-panel {
+  position: relative;
+  background: linear-gradient(180deg, rgba(18, 38, 62, 0.95), rgba(10, 24, 43, 0.96));
+  border: 1px solid rgba(225, 181, 111, 0.2);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+.premium-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(225, 181, 111, 0.45), rgba(30, 166, 200, 0.35));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.premium-panel::after {
+  content: "";
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+  width: 160px;
+  height: 160px;
+  background: radial-gradient(circle, rgba(225, 181, 111, 0.17) 0%, transparent 66%);
+  pointer-events: none;
+}
+
+.fact-list li {
+  padding: 0.5rem 0;
+  color: var(--muted);
+  border-bottom: 1px dashed rgba(225, 181, 111, 0.22);
+}
+
+.fact-list strong {
+  color: var(--accent-soft);
+  font-weight: 600;
+}
+
+.fact-list li:last-child {
+  border-bottom: 0;
+}
+
+#monumentDescription {
+  font-size: 1.06rem;
+  line-height: 1.95;
+  color: #dbe6ff;
+}
+
+.gallery-item {
+  border-radius: 0.9rem;
+  overflow: hidden;
+  border: 1px solid rgba(225, 181, 111, 0.2);
+  box-shadow: var(--shadow-soft);
+  background: rgba(10, 18, 34, 0.7);
+  min-height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 230px;
+  object-fit: contain;
+  transition: transform 0.7s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.08);
+}
+
+.site-footer {
+  border-top: 1px solid rgba(225, 181, 111, 0.2);
+  background: rgba(7, 16, 30, 0.8);
+}
+
+.site-footer h5 {
+  font-family: var(--font-display);
+  color: var(--accent-soft);
+  letter-spacing: 0.4px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(5, 14, 28, 0.95);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(225, 181, 111, 0.9), rgba(30, 166, 200, 0.85));
+  border-radius: 999px;
+}
+
+.footer-muted {
+  color: #9caac8;
+}
+
+.footer-social {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+.footer-social a {
+  color: #d2dcf6;
+  transition: color var(--transition);
+}
+
+.footer-social a:hover {
+  color: var(--accent-soft);
+}
+
+.fade-transition {
+  animation: textFade 0.36s ease;
+}
+
+.section-fade {
+  animation: riseIn 0.65s ease both;
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textFade {
+  from {
+    opacity: 0.2;
+    filter: blur(1px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .premium-nav {
+    background: rgba(6, 16, 31, 0.95);
+  }
+
+  .hero-section {
+    min-height: 78vh;
+  }
+
+  .hero-subtitle {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-section,
+  .monument-hero {
+    min-height: 72vh;
+  }
+
+  .monument-card-text {
+    min-height: auto;
+  }
+
+  .gallery-item img {
+    height: 190px;
+  }
+}
