@@ -6,10 +6,10 @@ const monuments = {
       location: "Buxoro shahri, Registon maydoni yaqinida",
       period: "V asrdan shakllangan, asosiy qismi XVI-XX asrlar",
       style: "Mudofaa me'morchiligi, saroy ansambli",
-      img: "images/ark-fortress.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
       gallery: [
-        "images/ark-fortress.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg"
       ],
     },
@@ -19,8 +19,12 @@ const monuments = {
       location: "Город Бухара, рядом с площадью Регистан",
       period: "Формирование с V века, основные слои XVI-XX веков",
       style: "Оборонительная архитектура, дворцовый ансамбль",
-      img: "images/ark-fortress.png",
-      gallery: ["images/ark-fortress.png", "images/talipach-gate.png", "images/magoki-attori.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg"
+      ],
     },
     en: {
       title: "Ark Fortress",
@@ -28,8 +32,12 @@ const monuments = {
       location: "Bukhara city, near Registan Square",
       period: "Origin from the 5th century, major layers from 16th-20th centuries",
       style: "Defensive architecture, palace ensemble",
-      img: "images/ark-fortress.png",
-      gallery: ["images/ark-fortress.png", "images/talipach-gate.png", "images/magoki-attori.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg"
+      ],
     }
   },
   "chashma-ayub": {
