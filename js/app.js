@@ -281,8 +281,8 @@ const monuments = {
       img: "images/sitorai-mokhi-khosa.png",
       gallery: [
         "images/sitorai-mokhi-khosa.png",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara107.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara108.jpg"
+        "https://cdn.beta.qalampir.uz/uploads/FH/f_tBduhjezouXxWpL581zWrrQOlp35r8.jpg",
+        "https://www.centralasia-travel.com/uploads/gallery/1138/sitorai-mokhi-khosa-03.jpg"
       ],
     },
     ru: {
