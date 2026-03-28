@@ -131,25 +131,60 @@ a {
 
 .monument-hero {
   min-height: 62vh;
+  background-color: #1a2838;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+/* Nasriddin haykali: cover = to‘liq kenglik (yon tomonda bo‘sh joy yo‘q). Vertikal kesishni `center 38%` bilan muvozanatlaymiz */
+.monument-hero.monument-hero--bg-top {
+  min-height: clamp(400px, 68vh, 720px);
+}
+
+.monument-hero.monument-hero--bg-top,
+.monument-hero.monument-hero--bg-top::after {
+  background-position: center 38%;
+  background-size: cover;
+}
+
+/* Base overlay — yengil: fon rasmi yaxshi ko‘rinsin, matn baribir o‘qiladi */
 .hero-overlay {
   position: absolute;
   inset: 0;
+  z-index: 1;
   background:
-    radial-gradient(circle at 22% 20%, rgba(225, 181, 111, 0.18), transparent 33%),
-    radial-gradient(circle at 80% 30%, rgba(30, 166, 200, 0.22), transparent 42%),
-    linear-gradient(180deg, rgba(3, 10, 23, 0.35) 0%, rgba(3, 10, 23, 0.92) 100%);
+    radial-gradient(circle at 22% 20%, rgba(225, 181, 111, 0.12), transparent 40%),
+    radial-gradient(circle at 80% 30%, rgba(30, 166, 200, 0.14), transparent 48%),
+    linear-gradient(180deg, rgba(3, 10, 23, 0.12) 0%, rgba(3, 10, 23, 0.38) 55%, rgba(3, 10, 23, 0.52) 100%);
 }
 
 .hero-section .hero-overlay {
   background:
-    radial-gradient(circle at 22% 20%, rgba(225, 181, 111, 0.1), transparent 38%),
-    radial-gradient(circle at 80% 30%, rgba(30, 166, 200, 0.12), transparent 48%),
-    linear-gradient(180deg, rgba(3, 10, 23, 0.12) 0%, rgba(3, 10, 23, 0.46) 100%);
+    radial-gradient(circle at 22% 20%, rgba(225, 181, 111, 0.08), transparent 42%),
+    radial-gradient(circle at 80% 30%, rgba(30, 166, 200, 0.1), transparent 52%),
+    linear-gradient(180deg, rgba(3, 10, 23, 0.06) 0%, rgba(3, 10, 23, 0.28) 55%, rgba(3, 10, 23, 0.38) 100%);
+}
+
+/* monument.html — dinamik fon: alohida yengilroq (oldingi 0.92 juda qorong‘i edi) */
+.monument-hero .hero-overlay {
+  background:
+    radial-gradient(ellipse 90% 70% at 50% 35%, rgba(15, 35, 55, 0.18), transparent 62%),
+    linear-gradient(180deg, rgba(3, 10, 23, 0.08) 0%, rgba(3, 10, 23, 0.22) 50%, rgba(3, 10, 23, 0.4) 100%);
+}
+
+/* Fon surati biroz yorug‘roq (murallar/kosalar uchun) — overlay ostida, z-index bilan tartib */
+.monument-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: inherit;
+  filter: brightness(1.12) contrast(1.05) saturate(1.06);
 }
 
 .hero-content,
@@ -188,7 +223,9 @@ a {
   margin-bottom: 1rem;
   font-family: var(--font-display);
   letter-spacing: 0.6px;
-  text-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.45),
+    0 8px 28px rgba(0, 0, 0, 0.35);
 }
 
 .hero-subtitle {
@@ -298,7 +335,7 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 45%, rgba(5, 16, 30, 0.75) 100%);
+  background: linear-gradient(180deg, transparent 50%, rgba(5, 16, 30, 0.42) 100%);
 }
 
 .monument-card-image {

@@ -73,37 +73,48 @@ const monuments = {
       gallery: ["images/chashma-ayub.png", "images/samani-mausoleum.png", "images/lyabi-hauz.png"],
     }
   },
-  "magoki-attori": {
+  "nodir-devonbegi": {
     uz: {
-      title: "Mag'oki Attori masjidi",
-      desc: "Mag'oki Attori Buxoroning eng qadimiy ibodat maskanlaridan biri bo'lib, hududda islomdan avvalgi va islomiy davr madaniy qatlamlari uchrashadi. Masjidning bugungi tuzilishida XII va XVI asr me'moriy ishlari ko'rinadi. Noyob bezaklari, pastroq joylashuvi va tarixiy foni uni alohida e'tiborga loyiq qiladi.",
-      location: "Buxoro eski shahri, Toqi bozorlar hududi",
-      period: "XII asr, qayta qurilish XVI asr",
-      style: "Erta islomiy me'morchilik",
-      img: "images/magoki-attori.png",
+      title: "Nodir Devonbegi madrasasi",
+      desc: "Nodir Devonbegi madrasasi Buxoroning Labi Hovuz ansamblida joylashgan va shaharning eng tanilgan me'moriy yodgorliklaridan biridir. U 1622-1623-yillarda Imomquli xon hukmronligi davrida uning vaziri Nodir Devonbegi buyrug'i bilan qurilgan. Dastlab karvonsaroy sifatida rejalashtirilgan binoning keyinchalik madrasaga aylantirilganligi tarixiy jihatdan qiziq. Katta kirish portali (pishtoq) va uning bezaklari Buxoro me'morchiligining yuqori darajasini aks ettiradi; portaldagi ikki qush (simurg) tasviri bilan mozaika islomiy an'anada noyob yechim hisoblanadi. Majmua oldidagi qadimiy tut daraxti 1477-yilda ekilgan, davlat tomonidan qo'riqlanadigan yodgorlik daraxt sifatida belgilangan — bu esa maydonning asrlar davomida shahar hayotining markazi bo'lib kelganini eslatadi.",
+      location: "Buxoro shahri, Labi Hovuz majmuasi",
+      period: "XVII asr (1622-1623)",
+      style: "Madrasa me'morchiligi, Labi Hovuz ansambli",
+      img: "images/nodir-devonbegi-mural-main.png",
       gallery: [
-        "images/magoki-attori.png",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_01.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Magoki-Attari.JPG"
+        "images/nodir-devonbegi-mural-main.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg",
+        "images/tut-daraxti-1477.png"
       ],
     },
     ru: {
-      title: "Мечеть Магоки-Аттори",
-      desc: "Магоки-Аттори - одна из древнейших культовых построек Бухары, где пересекаются доисламские и исламские культурные пласты. В современном облике заметны архитектурные решения XII и XVI веков. Особая отделка, пониженное расположение и глубокий исторический контекст делают мечеть уникальным объектом.",
-      location: "Старый город Бухары, район купольных базаров",
-      period: "XII век, реконструкция XVI века",
-      style: "Раннеисламская архитектура",
-      img: "images/magoki-attori.png",
-      gallery: ["images/magoki-attori.png", "images/chor-minor.png", "images/talipach-gate.png"],
+      title: "Медресе Нодира Диванбеги",
+      desc: "Медресе Нодира Диванбеги — один из главных памятников ансамбля Ляби-Хауз в центре Бухары. Построено в 1622-1623 годах при правителе Имамкули-хане по заказу визиря Нодира Диванбеги. Интересно, что здание изначально задумывалось как караван-сарай, а затем было преобразовано в медресе. Большой портал (пиштак) и его декор демонстрируют высокий уровень бухарской архитектуры; мозаика с изображением двух птиц (симургов) на портале считается редким художественным решением. Перед ансамблем растет древняя шелковица: по информации с мемориальной таблички, дерево посажено в 1477 году и охраняется государством как памятник природы — это подчеркивает многовековую роль площади в жизни города.",
+      location: "Бухара, ансамбль Ляби-Хауз",
+      period: "XVII век (1622-1623)",
+      style: "Архитектура медресе, ансамбль Ляби-Хауз",
+      img: "images/nodir-devonbegi-mural-main.png",
+      gallery: [
+        "images/nodir-devonbegi-mural-main.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg",
+        "images/tut-daraxti-1477.png"
+      ],
     },
     en: {
-      title: "Magoki-Attori Mosque",
-      desc: "Magoki-Attori is among the oldest sacred sites in Bukhara, where pre-Islamic and Islamic cultural layers intersect. The visible structure reflects architectural phases from the 12th and 16th centuries. Its decorative details, lowered ground level, and rich historical context make it a remarkable monument.",
-      location: "Old Bukhara, near the domed trading quarters",
-      period: "12th century with 16th-century reconstruction",
-      style: "Early Islamic architecture",
-      img: "images/magoki-attori.png",
-      gallery: ["images/magoki-attori.png", "images/chor-minor.png", "images/talipach-gate.png"],
+      title: "Nadir Divan-Begi Madrasah",
+      desc: "The Nadir Divan-Begi Madrasah is a landmark building of Bukhara's Lyabi-Hauz ensemble. It was built in 1622-1623 under Imam Quli Khan, commissioned by his vizier Nadir Divan-Begi. Historically notable is that the structure was first planned as a caravanserai and later converted into a madrasah. The monumental entrance portal and its decoration reflect the sophistication of Bukhara architecture; the mosaic featuring two birds (simurghs) on the portal is considered an unusual artistic choice. In front of the ensemble stands an ancient mulberry tree: according to the on-site plaque, it was planted in 1477 and is state-protected as a heritage tree—evidence of the square's long role as a social heart of the city.",
+      location: "Bukhara, Lyabi-Hauz ensemble",
+      period: "17th century (1622-1623)",
+      style: "Madrasa architecture, Lyabi-Hauz ensemble",
+      img: "images/nodir-devonbegi-mural-main.png",
+      gallery: [
+        "images/nodir-devonbegi-mural-main.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg",
+        "images/tut-daraxti-1477.png"
+      ],
     }
   },
   "lyabi-hauz": {
@@ -193,7 +204,11 @@ const monuments = {
       period: "Начало XIX века",
       style: "Местная исламская архитектура",
       img: "images/chor-minor.png",
-      gallery: ["images/chor-minor.png", "images/magoki-attori.png", "images/chashma-ayub.png"],
+      gallery: [
+        "images/chor-minor.png",
+        "images/chashma-ayub.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg"
+      ],
     },
     en: {
       title: "Chor Minor",
@@ -202,7 +217,11 @@ const monuments = {
       period: "Early 19th century",
       style: "Local Islamic architecture",
       img: "images/chor-minor.png",
-      gallery: ["images/chor-minor.png", "images/magoki-attori.png", "images/chashma-ayub.png"],
+      gallery: [
+        "images/chor-minor.png",
+        "images/chashma-ayub.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg"
+      ],
     }
   },
   "talipach-gate": {
@@ -226,7 +245,11 @@ const monuments = {
       period: "Основные слои XVI-XIX веков",
       style: "Архитектура оборонительных ворот",
       img: "images/talipach-gate.png",
-      gallery: ["images/talipach-gate.png", "images/ark-fortress.png", "images/magoki-attori.png"],
+      gallery: [
+        "images/talipach-gate.png",
+        "images/ark-fortress.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg"
+      ],
     },
     en: {
       title: "Talipach Gate",
@@ -235,7 +258,11 @@ const monuments = {
       period: "Main visible layers from 16th-19th centuries",
       style: "Defensive gate architecture",
       img: "images/talipach-gate.png",
-      gallery: ["images/talipach-gate.png", "images/ark-fortress.png", "images/magoki-attori.png"],
+      gallery: [
+        "images/talipach-gate.png",
+        "images/ark-fortress.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg"
+      ],
     }
   },
   "samani-mausoleum": {
@@ -323,12 +350,12 @@ const monumentStats = {
       en: "Major reconstruction phases: 14th-16th centuries"
     }
   },
-  "magoki-attori": {
-    year: "IX-X asr (ilk bosqich), XII va XVI asrlarda qayta ishlangan",
+  "nodir-devonbegi": {
+    year: "1622-1623-yillar (asosiy qurilish)",
     metric: {
-      uz: "Po-i Kalon majmuasidan taxminan 300 m janubi-g'arbda",
-      ru: "Около 300 м к юго-западу от комплекса Пои-Калян",
-      en: "Approx. 300 m southwest of the Po-i-Kalyan complex"
+      uz: "Oldidagi tut daraxti: 1477-yilda ekilgan; davlat himoyasidagi yodgorlik",
+      ru: "Шелковица: посажена в 1477 году; охраняется государством",
+      en: "Mulberry tree: planted in 1477; state-protected heritage tree"
     }
   },
   "lyabi-hauz": {
@@ -564,6 +591,7 @@ function showMonumentError() {
   title.textContent = txt.errorTitle;
   hero.style.backgroundImage =
     "url('https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=1400&q=80')";
+  hero.classList.remove("monument-hero--bg-top");
   errorBox.classList.remove("d-none");
   errorBox.innerHTML = `<strong>${txt.errorTitle}.</strong> ${txt.errorDesc}`;
   content.classList.add("d-none");
@@ -574,7 +602,10 @@ function renderMonumentPage() {
   if (!title) return;
 
   const params = new URLSearchParams(window.location.search);
-  const id = params.get("id");
+  let id = params.get("id");
+  if (id === "magoki-attori") {
+    id = "nodir-devonbegi";
+  }
   const data = id ? getMonumentLangData(id) : null;
 
   if (!id || !data) {
@@ -595,6 +626,7 @@ function renderMonumentPage() {
   title.textContent = data.title;
   document.title = `${data.title} | Madrasalar`;
   hero.style.backgroundImage = `url('${data.img}')`;
+  hero.classList.toggle("monument-hero--bg-top", id === "nasriddin-statue");
   desc.innerHTML = `${data.desc}<br><br>${getExtendedNarrative(data)}`;
   location.textContent = data.location;
   period.textContent = data.period;
