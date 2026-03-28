@@ -428,6 +428,14 @@ a {
   font-weight: 600;
 }
 
+.fact-list .fact-tree-text {
+  display: block;
+  margin-top: 0.35rem;
+  color: #dbe6ff;
+  font-weight: 500;
+  line-height: 1.65;
+}
+
 .fact-list li:last-child {
   border-bottom: 0;
 }

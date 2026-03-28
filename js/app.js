@@ -353,9 +353,14 @@ const monumentStats = {
   "nodir-devonbegi": {
     year: "1622-1623-yillar (asosiy qurilish)",
     metric: {
-      uz: "Oldidagi tut daraxti: 1477-yilda ekilgan; davlat himoyasidagi yodgorlik",
-      ru: "Шелковица: посажена в 1477 году; охраняется государством",
-      en: "Mulberry tree: planted in 1477; state-protected heritage tree"
+      uz: "Kirish portali (pishtoq) va simurg mozaikasi — Labi Hovuzdagi eng tanilgan bezaklardan",
+      ru: "Портал (пиштак) и мозаика с симургами — одни из самых узнаваемых украшений ансамбля",
+      en: "The entrance portal and simurgh mosaics — among the ensemble's most recognizable features"
+    },
+    tree: {
+      uz: "Madrasa hovuz tomonidagi qadimiy oq tut (Morus alba) Labi Hovuz maydonining ramziy manzaralaridan biri. Yodgorlik lavhasidagi yozuvlarga ko'ra, daraxt 1477-yilda ekilgan; O'zbekiston qonunchiligiga muvofiq davlat tomonidan qo'riqlanadigan tabiiy yodgorlik sifatida belgilangan. Ko'p asrlik novdasi sayyohlar va mahalliy aholi uchun uchrashuv maskani bo'lib kelgan. Galereyada joylashgan surat — shu daraxt va uning atrofidagi muhitni aks ettiradi.",
+      ru: "Древняя белая шелковица (Morus alba) перед медресе, обращённая к бассейну Ляби-Хауз, — один из символичных видов ансамбля. Согласно мемориальной табличке, дерево посажено в 1477 году; охраняется государством как природный памятник. Тень многовекового дерева традиционно была местом встреч туристов и горожан. Фото в галерее показывает это дерево и окружение.",
+      en: "The ancient white mulberry (Morus alba) in front of the madrasah, facing the Lyabi-Hauz pool, is one of the ensemble's iconic views. According to the on-site plaque, the tree was planted in 1477 and is registered as a state-protected natural monument. For centuries its shade has been a natural meeting place for visitors and residents. The gallery image shows this tree and its setting."
     }
   },
   "lyabi-hauz": {
@@ -429,6 +434,7 @@ const uiText = {
     factStyle: "Uslub:",
     factYear: "Yil:",
     factMetric: "Aniq sonlar:",
+    factTree: "Tut daraxti:",
     galleryTitle: "Foto galereya",
     backToHome: "Bosh sahifaga qaytish",
     errorTitle: "Obida topilmadi",
@@ -454,6 +460,7 @@ const uiText = {
     factStyle: "Стиль:",
     factYear: "Год:",
     factMetric: "Точные числа:",
+    factTree: "Шелковица:",
     galleryTitle: "Фотогалерея",
     backToHome: "Вернуться на главную",
     errorTitle: "Памятник не найден",
@@ -479,6 +486,7 @@ const uiText = {
     factStyle: "Style:",
     factYear: "Year:",
     factMetric: "Exact numbers:",
+    factTree: "Mulberry tree:",
     galleryTitle: "Photo Gallery",
     backToHome: "Back to Home",
     errorTitle: "Monument not found",
@@ -620,6 +628,8 @@ function renderMonumentPage() {
   const style = document.getElementById("monumentStyle");
   const year = document.getElementById("monumentYear");
   const metric = document.getElementById("monumentMetric");
+  const treeRow = document.getElementById("monumentTreeRow");
+  const treeText = document.getElementById("monumentTree");
   const galleryGrid = document.getElementById("galleryGrid");
   const stats = monumentStats[id];
 
@@ -633,6 +643,17 @@ function renderMonumentPage() {
   style.textContent = data.style;
   year.textContent = stats?.year || "-";
   metric.textContent = stats?.metric?.[currentLang] || "-";
+
+  const treeCopy = stats?.tree?.[currentLang];
+  if (treeRow && treeText) {
+    if (treeCopy) {
+      treeText.textContent = treeCopy;
+      treeRow.classList.remove("d-none");
+    } else {
+      treeText.textContent = "";
+      treeRow.classList.add("d-none");
+    }
+  }
 
   galleryGrid.innerHTML = data.gallery
     .map(
