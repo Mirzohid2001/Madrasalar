@@ -10,7 +10,8 @@ const monuments = {
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg",
+        "images/ark-fortress.png"
       ],
     },
     ru: {
@@ -23,7 +24,8 @@ const monuments = {
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg",
+        "images/ark-fortress.png"
       ],
     },
     en: {
@@ -36,7 +38,8 @@ const monuments = {
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg",
+        "images/ark-fortress.png"
       ],
     }
   },
@@ -47,11 +50,11 @@ const monuments = {
       location: "Buxoro shahri, Samoniylar maqbarasi yaqinida",
       period: "XIV-XVI asrlar",
       style: "Maqbara me'morchiligi, diniy ansambl",
-      img: "images/chashma-ayub.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Chashma-Ayub_Mausoleum_01.jpg",
       gallery: [
-        "images/chashma-ayub.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chashma-Ayub_Mausoleum_01.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Chashma-Ayub_mausoleum.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Chashma-Ayub_Mausoleum_01.jpg"
+        "images/chashma-ayub.png"
       ],
     },
     ru: {
@@ -60,8 +63,12 @@ const monuments = {
       location: "Бухара, рядом с мавзолеем Саманидов",
       period: "XIV-XVI века",
       style: "Мавзолейная архитектура, религиозный ансамбль",
-      img: "images/chashma-ayub.png",
-      gallery: ["images/chashma-ayub.png", "images/samani-mausoleum.png", "images/lyabi-hauz.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Chashma-Ayub_Mausoleum_01.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chashma-Ayub_Mausoleum_01.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Chashma-Ayub_mausoleum.jpg",
+        "images/chashma-ayub.png"
+      ],
     },
     en: {
       title: "Chashma-Ayub Mausoleum",
@@ -69,8 +76,12 @@ const monuments = {
       location: "Bukhara, near the Samanid Mausoleum",
       period: "14th-16th centuries",
       style: "Mausoleum architecture, religious ensemble",
-      img: "images/chashma-ayub.png",
-      gallery: ["images/chashma-ayub.png", "images/samani-mausoleum.png", "images/lyabi-hauz.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Chashma-Ayub_Mausoleum_01.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chashma-Ayub_Mausoleum_01.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Chashma-Ayub_mausoleum.jpg",
+        "images/chashma-ayub.png"
+      ],
     }
   },
   "nodir-devonbegi": {
@@ -80,11 +91,11 @@ const monuments = {
       location: "Buxoro shahri, Labi Hovuz majmuasi",
       period: "XVII asr (1622-1623)",
       style: "Madrasa me'morchiligi, Labi Hovuz ansambli",
-      img: "images/nodir-devonbegi-mural-main.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg",
       gallery: [
-        "images/nodir-devonbegi-mural-main.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg",
+        "images/nodir-devonbegi-mural-main.png",
         "images/tut-daraxti-1477.png"
       ],
     },
@@ -94,11 +105,11 @@ const monuments = {
       location: "Бухара, ансамбль Ляби-Хауз",
       period: "XVII век (1622-1623)",
       style: "Архитектура медресе, ансамбль Ляби-Хауз",
-      img: "images/nodir-devonbegi-mural-main.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg",
       gallery: [
-        "images/nodir-devonbegi-mural-main.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg",
+        "images/nodir-devonbegi-mural-main.png",
         "images/tut-daraxti-1477.png"
       ],
     },
@@ -108,11 +119,11 @@ const monuments = {
       location: "Bukhara, Lyabi-Hauz ensemble",
       period: "17th century (1622-1623)",
       style: "Madrasa architecture, Lyabi-Hauz ensemble",
-      img: "images/nodir-devonbegi-mural-main.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg",
       gallery: [
-        "images/nodir-devonbegi-mural-main.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg",
+        "images/nodir-devonbegi-mural-main.png",
         "images/tut-daraxti-1477.png"
       ],
     }
@@ -124,11 +135,11 @@ const monuments = {
       location: "Buxoro shahri markazi",
       period: "XVI-XVII asrlar",
       style: "Shahar ansambli, madrasa me'morchiligi",
-      img: "images/lyabi-hauz.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Labi_Hovuz_03.jpg",
       gallery: [
-        "images/lyabi-hauz.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Labi_Hovuz_03.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Liab-i-Haouz_01.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Liab-i-Haouz_01.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg"
       ],
     },
     ru: {
@@ -137,8 +148,12 @@ const monuments = {
       location: "Центр города Бухара",
       period: "XVI-XVII века",
       style: "Городской ансамбль, медресе",
-      img: "images/lyabi-hauz.png",
-      gallery: ["images/lyabi-hauz.png", "images/nasriddin-statue.png", "images/sitorai-mokhi-khosa.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Labi_Hovuz_03.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Labi_Hovuz_03.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Liab-i-Haouz_01.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg"
+      ],
     },
     en: {
       title: "Lyabi-Hauz Ensemble",
@@ -146,8 +161,12 @@ const monuments = {
       location: "Central Bukhara",
       period: "16th-17th centuries",
       style: "Urban ensemble, madrasa architecture",
-      img: "images/lyabi-hauz.png",
-      gallery: ["images/lyabi-hauz.png", "images/nasriddin-statue.png", "images/sitorai-mokhi-khosa.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Labi_Hovuz_03.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Labi_Hovuz_03.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Liab-i-Haouz_01.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg"
+      ],
     }
   },
   "nasriddin-statue": {
@@ -157,11 +176,11 @@ const monuments = {
       location: "Labi Hovuz hududi, Buxoro",
       period: "Zamonaviy davr (XX asr oxiri)",
       style: "Monumental haykaltaroshlik",
-      img: "images/nasriddin-statue.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
       gallery: [
-        "images/nasriddin-statue.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Nasriddin_Afandi_haykali_3.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nasriddin_Afandi_haykali_3.jpg",
+        "images/nasriddin-statue.png"
       ],
     },
     ru: {
@@ -170,8 +189,12 @@ const monuments = {
       location: "Район Ляби-Хауз, Бухара",
       period: "Современный период (конец XX века)",
       style: "Монументальная скульптура",
-      img: "images/nasriddin-statue.png",
-      gallery: ["images/nasriddin-statue.png", "images/lyabi-hauz.png", "images/chor-minor.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nasriddin_Afandi_haykali_3.jpg",
+        "images/nasriddin-statue.png"
+      ],
     },
     en: {
       title: "Khoja Nasreddin Statue",
@@ -179,8 +202,12 @@ const monuments = {
       location: "Lyabi-Hauz area, Bukhara",
       period: "Modern period (late 20th century)",
       style: "Monumental sculpture",
-      img: "images/nasriddin-statue.png",
-      gallery: ["images/nasriddin-statue.png", "images/lyabi-hauz.png", "images/chor-minor.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nasriddin_Afandi_haykali_3.jpg",
+        "images/nasriddin-statue.png"
+      ],
     }
   },
   "chor-minor": {
@@ -190,11 +217,11 @@ const monuments = {
       location: "Buxoro, eski shahar qismi",
       period: "XIX asr boshi",
       style: "Mahalliy islomiy me'morchilik",
-      img: "images/chor-minor.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
       gallery: [
-        "images/chor-minor.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_minor_from_southwest.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg"
+        "images/chor-minor.png"
       ],
     },
     ru: {
@@ -203,11 +230,11 @@ const monuments = {
       location: "Бухара, историческая часть города",
       period: "Начало XIX века",
       style: "Местная исламская архитектура",
-      img: "images/chor-minor.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
       gallery: [
-        "images/chor-minor.png",
-        "images/chashma-ayub.png",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_minor_from_southwest.jpg",
+        "images/chor-minor.png"
       ],
     },
     en: {
@@ -216,11 +243,11 @@ const monuments = {
       location: "Bukhara, old city district",
       period: "Early 19th century",
       style: "Local Islamic architecture",
-      img: "images/chor-minor.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
       gallery: [
-        "images/chor-minor.png",
-        "images/chashma-ayub.png",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_minor_from_southwest.jpg",
+        "images/chor-minor.png"
       ],
     }
   },
@@ -231,11 +258,11 @@ const monuments = {
       location: "Buxoro eski shahar devorlari hududi",
       period: "Asosiy qatlamlari XVI-XIX asrlar",
       style: "Mudofaa darvozasi me'morchiligi",
-      img: "images/talipach-gate.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
       gallery: [
-        "images/talipach-gate.png",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_of_Bukhara.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_(geograph_6306841).jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_gate_of_Bukhara_from_inside.jpg",
+        "images/talipach-gate.png"
       ],
     },
     ru: {
@@ -244,11 +271,11 @@ const monuments = {
       location: "Район старых городских стен Бухары",
       period: "Основные слои XVI-XIX веков",
       style: "Архитектура оборонительных ворот",
-      img: "images/talipach-gate.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
       gallery: [
-        "images/talipach-gate.png",
-        "images/ark-fortress.png",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_gate_of_Bukhara_from_inside.jpg",
+        "images/talipach-gate.png"
       ],
     },
     en: {
@@ -257,11 +284,11 @@ const monuments = {
       location: "Historic wall zone of old Bukhara",
       period: "Main visible layers from 16th-19th centuries",
       style: "Defensive gate architecture",
-      img: "images/talipach-gate.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
       gallery: [
-        "images/talipach-gate.png",
-        "images/ark-fortress.png",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Divanbegi_Madrasa_front_1.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_gate_of_Bukhara_from_inside.jpg",
+        "images/talipach-gate.png"
       ],
     }
   },
@@ -272,11 +299,11 @@ const monuments = {
       location: "Somoniylar bog'i, Buxoro",
       period: "IX-X asrlar",
       style: "Erta islomiy maqbara me'morchiligi",
-      img: "images/samani-mausoleum.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg",
       gallery: [
-        "images/samani-mausoleum.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Samanid_Mausoleum_1.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg"
+        "images/samani-mausoleum.png"
       ],
     },
     ru: {
@@ -285,8 +312,12 @@ const monuments = {
       location: "Парк Саманидов, Бухара",
       period: "IX-X века",
       style: "Раннеисламская мавзолейная архитектура",
-      img: "images/samani-mausoleum.png",
-      gallery: ["images/samani-mausoleum.png", "images/chashma-ayub.png", "images/chor-minor.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Samanid_Mausoleum_1.jpg",
+        "images/samani-mausoleum.png"
+      ],
     },
     en: {
       title: "Ismail Samani Mausoleum",
@@ -294,8 +325,12 @@ const monuments = {
       location: "Samanid Park, Bukhara",
       period: "9th-10th centuries",
       style: "Early Islamic mausoleum architecture",
-      img: "images/samani-mausoleum.png",
-      gallery: ["images/samani-mausoleum.png", "images/chashma-ayub.png", "images/chor-minor.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Samanid_Mausoleum_1.jpg",
+        "images/samani-mausoleum.png"
+      ],
     }
   },
   "sitorai-mokhi-khosa": {
@@ -305,11 +340,14 @@ const monuments = {
       location: "Buxoro viloyati, shahardan tashqaridagi saroy hududi",
       period: "XIX asr oxiri - XX asr boshi",
       style: "Sharq va Yevropa uslublari sintezi",
-      img: "images/sitorai-mokhi-khosa.png",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
       gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_2.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg",
         "images/sitorai-mokhi-khosa.png",
-        "https://cdn.beta.qalampir.uz/uploads/FH/f_tBduhjezouXxWpL581zWrrQOlp35r8.jpg",
-        "https://www.centralasia-travel.com/uploads/gallery/1138/sitorai-mokhi-khosa-03.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara107.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara108.jpg"
       ],
     },
     ru: {
@@ -318,8 +356,15 @@ const monuments = {
       location: "Бухарская область, дворцовая зона за пределами центра",
       period: "Конец XIX - начало XX века",
       style: "Синтез восточной и европейской традиций",
-      img: "images/sitorai-mokhi-khosa.png",
-      gallery: ["images/sitorai-mokhi-khosa.png", "images/lyabi-hauz.png", "images/nasriddin-statue.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_2.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg",
+        "images/sitorai-mokhi-khosa.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara107.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara108.jpg"
+      ],
     },
     en: {
       title: "Sitorai Mokhi-Khosa Palace",
@@ -327,8 +372,71 @@ const monuments = {
       location: "Bukhara region, palace area outside the old center",
       period: "Late 19th to early 20th century",
       style: "Synthesis of Eastern and European design",
-      img: "images/sitorai-mokhi-khosa.png",
-      gallery: ["images/sitorai-mokhi-khosa.png", "images/lyabi-hauz.png", "images/nasriddin-statue.png"],
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
+      gallery: [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_2.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg",
+        "images/sitorai-mokhi-khosa.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara107.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara108.jpg"
+      ],
+    }
+  },
+  "bahauddin-naqshband": {
+    uz: {
+      title: "Bohovuddin Naqshbandiy majmuasi",
+      desc: "Bohovuddin Naqshbandiy (1318–1389) — naqshbandiya tariqati asoschisi. Uning qabri atrofida asrlar davomida masjidlar, xonaqoh, madrasa, minora va hovuzlar bilan keng ziyorat majmuasi shakllangan. Majmua Buxorodan taxminan 12 kilometr narida joylashgan bo'lib, markaziy Osiyo musulmonlari uchun muhim ruhaniy markazlardan biri sanaladi. Majmua davlat tomonidan muhofaza qilinadi va yil bo'yi sayyoh hamda ziyoratchilarni jalb qiladi.",
+      location: "Buxoro viloyati, Buxorodan 12 km — Qasri Orifon yaqinidagi ziyoratgoh",
+      period: "XIV asr — XX asr (bosqichma-bosqich rivojlangan)",
+      style: "Sufiy ziyorat majmuasi, naqshbandiya me'moriy an'anasi",
+      img: "images/bahauddin-naqshband-mural.png",
+      gallery: [
+        "images/bahauddin-naqshband-mural.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_02.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_main_yard_summer_mosque.JPG",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleo_de_Baha-ud-Din_Naqshbandi_23.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara435.jpg"
+      ],
+    },
+    ru: {
+      title: "Мемориальный комплекс Бахауддина Накшбанда",
+      desc: "Бахауддин Накшбанд (1318–1389) — основатель тариката накшбандийя. Вокруг его усыпальницы веками формировался крупный паломнический ансамбль с мечетями, ханакой, медресе, минаретом и бассейнами. Комплекс расположен примерно в 12 км от Бухары (район Касри Орифон) и остаётся одним из главных духовных центров региона. Территория охраняется государством и популярна среди туристов и паломников.",
+      location: "Бухарская область, ~12 км от Бухары, паломнический комплекс Касри Орифон",
+      period: "XIV–XX вв. (многослойное развитие)",
+      style: "Суфийский загородный ансамбль, памятники накшбандийской традиции",
+      img: "images/bahauddin-naqshband-mural.png",
+      gallery: [
+        "images/bahauddin-naqshband-mural.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_02.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_main_yard_summer_mosque.JPG",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleo_de_Baha-ud-Din_Naqshbandi_23.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara435.jpg"
+      ],
+    },
+    en: {
+      title: "Bahauddin Naqshband Memorial Complex",
+      desc: "Baha al-Din Naqshband (1318–1389) founded the Naqshbandi Sufi order. Around his tomb, successive generations built mosques, a khanqah, madrasa cells, a minaret, and pools in a spacious pilgrimage ensemble roughly 12 km northeast of Bukhara (near Qasri Orifon). The site is a major spiritual destination in Central Asia and a state-protected landmark that attracts visitors year-round.",
+      location: "Bukhara region, ~12 km from Bukhara, Qasri Orifon pilgrimage complex",
+      period: "14th–20th centuries (phased growth)",
+      style: "Sufi pilgrimage ensemble, Naqshbandi architectural tradition",
+      img: "images/bahauddin-naqshband-mural.png",
+      gallery: [
+        "images/bahauddin-naqshband-mural.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_02.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_main_yard_summer_mosque.JPG",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleo_de_Baha-ud-Din_Naqshbandi_23.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara435.jpg"
+      ],
     }
   }
 };
@@ -409,6 +517,14 @@ const monumentStats = {
       uz: "Qurilishning asosiy bosqichi: 6 yil",
       ru: "Основной этап строительства: 6 лет",
       en: "Main construction phase: 6 years"
+    }
+  },
+  "bahauddin-naqshband": {
+    year: "XIV asr (maqbara), XVI–XIX asrlar (asosiy qatlamlar)",
+    metric: {
+      uz: "Xonaqoh (1544–1545), Muzaffarxon masjidi, minora — majmuani shakllantiruvchi yirik inshootlar",
+      ru: "Ханака (1544–1545), мечеть Музаффар-хана, минарет — ключевые постройки комплекса",
+      en: "Notable structures: khanqah (1544–1545), Muzaffar Khan Mosque, minaret"
     }
   }
 };
@@ -613,6 +729,9 @@ function renderMonumentPage() {
   let id = params.get("id");
   if (id === "magoki-attori") {
     id = "nodir-devonbegi";
+  }
+  if (id === "bohovuddin-naqshbandiy") {
+    id = "bahauddin-naqshband";
   }
   const data = id ? getMonumentLangData(id) : null;
 
