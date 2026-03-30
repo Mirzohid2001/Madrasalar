@@ -187,6 +187,18 @@ a {
   filter: brightness(1.12) contrast(1.05) saturate(1.06);
 }
 
+
+/* Bahauddin hero: zamonaviy rasm uchun yumshoqroq overlay */
+.monument-hero.monument-hero--bahauddin .hero-overlay {
+  background:
+    radial-gradient(ellipse 90% 70% at 50% 35%, rgba(15, 35, 55, 0.12), transparent 66%),
+    linear-gradient(180deg, rgba(3, 10, 23, 0.04) 0%, rgba(3, 10, 23, 0.14) 52%, rgba(3, 10, 23, 0.28) 100%);
+}
+
+.monument-hero.monument-hero--bahauddin::after {
+  filter: brightness(1.18) contrast(1.04) saturate(1.04);
+}
+
 .hero-content,
 .monument-hero-content {
   position: relative;

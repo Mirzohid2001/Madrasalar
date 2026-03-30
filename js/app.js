@@ -390,16 +390,17 @@ const monuments = {
       location: "Buxoro viloyati, Buxorodan 12 km — Qasri Orifon yaqinidagi ziyoratgoh",
       period: "XIV asr — XX asr (bosqichma-bosqich rivojlangan)",
       style: "Sufiy ziyorat majmuasi, naqshbandiya me'moriy an'anasi",
-      img: "images/bahauddin-naqshband-mural.png",
+      img: "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
       gallery: [
-        "images/bahauddin-naqshband-mural.png",
+        "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_02.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_main_yard_summer_mosque.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleo_de_Baha-ud-Din_Naqshbandi_23.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara435.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara435.jpg",
+        "images/bahauddin-naqshband-mural.png"
       ],
     },
     ru: {
@@ -408,16 +409,17 @@ const monuments = {
       location: "Бухарская область, ~12 км от Бухары, паломнический комплекс Касри Орифон",
       period: "XIV–XX вв. (многослойное развитие)",
       style: "Суфийский загородный ансамбль, памятники накшбандийской традиции",
-      img: "images/bahauddin-naqshband-mural.png",
+      img: "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
       gallery: [
-        "images/bahauddin-naqshband-mural.png",
+        "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_02.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_main_yard_summer_mosque.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleo_de_Baha-ud-Din_Naqshbandi_23.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara435.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara435.jpg",
+        "images/bahauddin-naqshband-mural.png"
       ],
     },
     en: {
@@ -426,16 +428,17 @@ const monuments = {
       location: "Bukhara region, ~12 km from Bukhara, Qasri Orifon pilgrimage complex",
       period: "14th–20th centuries (phased growth)",
       style: "Sufi pilgrimage ensemble, Naqshbandi architectural tradition",
-      img: "images/bahauddin-naqshband-mural.png",
+      img: "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
       gallery: [
-        "images/bahauddin-naqshband-mural.png",
+        "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_02.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_main_yard_summer_mosque.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleo_de_Baha-ud-Din_Naqshbandi_23.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara435.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara435.jpg",
+        "images/bahauddin-naqshband-mural.png"
       ],
     }
   }
@@ -715,7 +718,7 @@ function showMonumentError() {
   title.textContent = txt.errorTitle;
   hero.style.backgroundImage =
     "url('https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=1400&q=80')";
-  hero.classList.remove("monument-hero--bg-top");
+  hero.classList.remove("monument-hero--bg-top", "monument-hero--bahauddin");
   errorBox.classList.remove("d-none");
   errorBox.innerHTML = `<strong>${txt.errorTitle}.</strong> ${txt.errorDesc}`;
   content.classList.add("d-none");
@@ -754,8 +757,11 @@ function renderMonumentPage() {
 
   title.textContent = data.title;
   document.title = `${data.title} | Madrasalar`;
-  hero.style.backgroundImage = `url('${data.img}')`;
+  const heroImg = data.img;
+  const cacheBust = id === "bahauddin-naqshband" ? `?cb=${Date.now()}` : "";
+  hero.style.backgroundImage = `url('${heroImg}${cacheBust}')`;
   hero.classList.toggle("monument-hero--bg-top", id === "nasriddin-statue");
+  hero.classList.toggle("monument-hero--bahauddin", id === "bahauddin-naqshband");
   desc.innerHTML = `${data.desc}<br><br>${getExtendedNarrative(data)}`;
   location.textContent = data.location;
   period.textContent = data.period;
