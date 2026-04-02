@@ -8,6 +8,7 @@ const monuments = {
       style: "Mudofaa me'morchiligi, saroy ansambli",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
       gallery: [
+        "images/ark-fortress-bas-relief-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg",
@@ -22,6 +23,7 @@ const monuments = {
       style: "Оборонительная архитектура, дворцовый ансамбль",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
       gallery: [
+        "images/ark-fortress-bas-relief-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg",
@@ -36,6 +38,7 @@ const monuments = {
       style: "Defensive architecture, palace ensemble",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
       gallery: [
+        "images/ark-fortress-bas-relief-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg",
