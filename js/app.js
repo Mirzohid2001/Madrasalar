@@ -137,8 +137,7 @@ const monuments = {
       style: "Erta islomiy jome masjidi, yerga botgan fasad",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
       gallery: [
-        "images/magoki-attori-mural-framed.png",
-        "images/magoki-attori-mural-hauz.png",
+        "images/magoki-attori-mural-main.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_01.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_03.jpg",
@@ -153,8 +152,7 @@ const monuments = {
       style: "Ранняя исламская соборная мечеть с пониженным уровнем двора",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
       gallery: [
-        "images/magoki-attori-mural-framed.png",
-        "images/magoki-attori-mural-hauz.png",
+        "images/magoki-attori-mural-main.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Magoki_Attari_mosque.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Magoki_Attori_Mosque_Entrance.jpg",
@@ -170,8 +168,7 @@ const monuments = {
       style: "Early Islamic congregational mosque with sunken facade",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
       gallery: [
-        "images/magoki-attori-mural-framed.png",
-        "images/magoki-attori-mural-hauz.png",
+        "images/magoki-attori-mural-main.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_01.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_04.jpg",
@@ -354,7 +351,7 @@ const monuments = {
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Samanid_Mausoleum_1.jpg",
-        "images/samani-mausoleum.png"
+        "images/samani-mausoleum-mural.png"
       ],
     },
     ru: {
@@ -367,7 +364,7 @@ const monuments = {
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Samanid_Mausoleum_1.jpg",
-        "images/samani-mausoleum.png"
+        "images/samani-mausoleum-mural.png"
       ],
     },
     en: {
@@ -380,7 +377,7 @@ const monuments = {
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Samanid_Mausoleum_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_Samanid_Mausoleum_1.jpg",
-        "images/samani-mausoleum.png"
+        "images/samani-mausoleum-mural.png"
       ],
     }
   },
