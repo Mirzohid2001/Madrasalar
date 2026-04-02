@@ -187,7 +187,9 @@ const monuments = {
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Labi_Hovuz_03.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Liab-i-Haouz_01.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg",
+        "images/lyabi-hauz-mural.png",
+        "images/lyabi-hauz-tut-lavha.png"
       ],
     },
     ru: {
@@ -200,7 +202,9 @@ const monuments = {
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Labi_Hovuz_03.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Liab-i-Haouz_01.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg",
+        "images/lyabi-hauz-mural.png",
+        "images/lyabi-hauz-tut-lavha.png"
       ],
     },
     en: {
@@ -213,7 +217,9 @@ const monuments = {
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Labi_Hovuz_03.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Liab-i-Haouz_01.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bukhara_divan_begi_madrasa_01.jpg",
+        "images/lyabi-hauz-mural.png",
+        "images/lyabi-hauz-tut-lavha.png"
       ],
     }
   },
