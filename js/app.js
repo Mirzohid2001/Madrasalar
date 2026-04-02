@@ -11,7 +11,7 @@ const monuments = {
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg",
-        "images/ark-fortress.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_12.jpg"
       ],
     },
     ru: {
@@ -25,7 +25,7 @@ const monuments = {
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg",
-        "images/ark-fortress.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_12.jpg"
       ],
     },
     en: {
@@ -39,7 +39,7 @@ const monuments = {
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_fortress_in_Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_Citadel.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_22.jpg",
-        "images/ark-fortress.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ark_of_Bukhara_12.jpg"
       ],
     }
   },
@@ -128,6 +128,57 @@ const monuments = {
       ],
     }
   },
+  "magoki-attori": {
+    uz: {
+      title: "Magoki Attori masjidi",
+      desc: "Magoki Attori masjidi Buxoro markazidagi eng qadimiy jome masjidlardan biri bo'lib, dastlab zardushtiy ibodatxonasi va bozor joyi o'rnida shakllangan deb hisoblanadi. Inshootning pastroq darajada qurilgani uning atrofidagi qadimiy qatlamlarni his qilish imkonini beradi. Bugungi kunda masjid ichida gilamlar muzeyi faoliyat yuritadi va sayyohlar uchun qadim Buxoroning ko'p qatlamli tarixini namoyon etadi.",
+      location: "Buxoro shahri, Labi Hovuz yaqinida, eski shahar",
+      period: "XII-XVI asrlar (asosiy ko'rinishi)",
+      style: "Erta islomiy jome masjidi, yerga botgan fasad",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
+      gallery: [
+        "images/magoki-attori-mural-framed.png",
+        "images/magoki-attori-mural-hauz.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_01.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_03.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mag%CA%BBoki_attori_masjidi_kirish_tepa_qismi.jpg"
+      ],
+    },
+    ru: {
+      title: "Мечеть Магоки-Аттари",
+      desc: "Мечеть Магоки-Аттари считается одним из древнейших сохранившихся соборных храмов Бухары. По мнению исследователей, на этом месте ранее находилось зороастрийское святилище и ремесленный рынок при храме. Современный облик с частично заглубленным фасадом наглядно показывает, насколько поднялся культурный слой старого города за столетия.",
+      location: "Старый город Бухары, вблизи ансамбля Ляби-Хауз",
+      period: "XII–XVI вв. (основные перестройки)",
+      style: "Ранняя исламская соборная мечеть с пониженным уровнем двора",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
+      gallery: [
+        "images/magoki-attori-mural-framed.png",
+        "images/magoki-attori-mural-hauz.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magoki_Attari_mosque.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magoki_Attori_Mosque_Entrance.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_02.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_Mosque_detail.jpg"
+      ],
+    },
+    en: {
+      title: "Magok-i Attari Mosque",
+      desc: "The Magok-i Attari Mosque is one of the oldest surviving congregational mosques in Bukhara. Scholars believe it stands on the site of a pre-Islamic Zoroastrian temple and market, later transformed into a mosque. Its sunken courtyard and richly decorated brick portal reveal the many historical layers of the old city; today the interior also hosts a carpet museum.",
+      location: "Old Bukhara, near the Lyabi-Hauz ensemble",
+      period: "12th–16th centuries (major phases)",
+      style: "Early Islamic congregational mosque with sunken facade",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
+      gallery: [
+        "images/magoki-attori-mural-framed.png",
+        "images/magoki-attori-mural-hauz.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_outside_view_1.JPG",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_01.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_04.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Magok-i-Attari_mosque_06.jpg"
+      ],
+    }
+  },
   "lyabi-hauz": {
     uz: {
       title: "Labi Hovuz ansambli",
@@ -178,9 +229,9 @@ const monuments = {
       style: "Monumental haykaltaroshlik",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
       gallery: [
+        "images/nasriddin-statue-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Nasriddin_Afandi_haykali_3.jpg",
-        "images/nasriddin-statue.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nasriddin_Afandi_haykali_3.jpg"
       ],
     },
     ru: {
@@ -191,9 +242,9 @@ const monuments = {
       style: "Монументальная скульптура",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
       gallery: [
+        "images/nasriddin-statue-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Nasriddin_Afandi_haykali_3.jpg",
-        "images/nasriddin-statue.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nasriddin_Afandi_haykali_3.jpg"
       ],
     },
     en: {
@@ -204,9 +255,9 @@ const monuments = {
       style: "Monumental sculpture",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
       gallery: [
+        "images/nasriddin-statue-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Khoja_Nasreddin_Statue.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Nasriddin_Afandi_haykali_3.jpg",
-        "images/nasriddin-statue.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nasriddin_Afandi_haykali_3.jpg"
       ],
     }
   },
@@ -219,9 +270,9 @@ const monuments = {
       style: "Mahalliy islomiy me'morchilik",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
       gallery: [
+        "images/chor-minor-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_minor_from_southwest.jpg",
-        "images/chor-minor.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_minor_from_southwest.jpg"
       ],
     },
     ru: {
@@ -232,9 +283,9 @@ const monuments = {
       style: "Местная исламская архитектура",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
       gallery: [
+        "images/chor-minor-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_minor_from_southwest.jpg",
-        "images/chor-minor.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_minor_from_southwest.jpg"
       ],
     },
     en: {
@@ -245,9 +296,9 @@ const monuments = {
       style: "Local Islamic architecture",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
       gallery: [
+        "images/chor-minor-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_Minor,_Bukhara.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_minor_from_southwest.jpg",
-        "images/chor-minor.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chor_minor_from_southwest.jpg"
       ],
     }
   },
@@ -260,9 +311,9 @@ const monuments = {
       style: "Mudofaa darvozasi me'morchiligi",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
       gallery: [
+        "images/talipach-gate-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_gate_of_Bukhara_from_inside.jpg",
-        "images/talipach-gate.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_gate_of_Bukhara_from_inside.jpg"
       ],
     },
     ru: {
@@ -273,9 +324,9 @@ const monuments = {
       style: "Архитектура оборонительных ворот",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
       gallery: [
+        "images/talipach-gate-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_gate_of_Bukhara_from_inside.jpg",
-        "images/talipach-gate.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_gate_of_Bukhara_from_inside.jpg"
       ],
     },
     en: {
@@ -286,9 +337,9 @@ const monuments = {
       style: "Defensive gate architecture",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
       gallery: [
+        "images/talipach-gate-mural.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_walls_and_gate_of_Bukhara_from_outside.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_gate_of_Bukhara_from_inside.jpg",
-        "images/talipach-gate.png"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Old_city_gate_of_Bukhara_from_inside.jpg"
       ],
     }
   },
@@ -342,12 +393,11 @@ const monuments = {
       style: "Sharq va Yevropa uslublari sintezi",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
       gallery: [
+        "images/sitorai-mokhi-khosa-mural-corner.png",
+        "images/sitorai-mokhi-khosa-mural-wide.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_2.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg",
-        "images/sitorai-mokhi-khosa.png",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara107.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara108.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg"
       ],
     },
     ru: {
@@ -358,12 +408,11 @@ const monuments = {
       style: "Синтез восточной и европейской традиций",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
       gallery: [
+        "images/sitorai-mokhi-khosa-mural-corner.png",
+        "images/sitorai-mokhi-khosa-mural-wide.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_2.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg",
-        "images/sitorai-mokhi-khosa.png",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara107.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara108.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg"
       ],
     },
     en: {
@@ -374,12 +423,11 @@ const monuments = {
       style: "Synthesis of Eastern and European design",
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
       gallery: [
+        "images/sitorai-mokhi-khosa-mural-corner.png",
+        "images/sitorai-mokhi-khosa-mural-wide.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_2.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg",
-        "images/sitorai-mokhi-khosa.png",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara107.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/20230611_Boukhara108.jpg"
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg"
       ],
     }
   },
@@ -390,9 +438,8 @@ const monuments = {
       location: "Buxoro viloyati, Buxorodan 12 km — Qasri Orifon yaqinidagi ziyoratgoh",
       period: "XIV asr — XX asr (bosqichma-bosqich rivojlangan)",
       style: "Sufiy ziyorat majmuasi, naqshbandiya me'moriy an'anasi",
-      img: "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
       gallery: [
-        "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
@@ -409,9 +456,8 @@ const monuments = {
       location: "Бухарская область, ~12 км от Бухары, паломнический комплекс Касри Орифон",
       period: "XIV–XX вв. (многослойное развитие)",
       style: "Суфийский загородный ансамбль, памятники накшбандийской традиции",
-      img: "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
       gallery: [
-        "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
@@ -428,9 +474,8 @@ const monuments = {
       location: "Bukhara region, ~12 km from Bukhara, Qasri Orifon pilgrimage complex",
       period: "14th–20th centuries (phased growth)",
       style: "Sufi pilgrimage ensemble, Naqshbandi architectural tradition",
-      img: "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
       gallery: [
-        "https://uzbek-travel.com/images/uz/Landmarks/Bukhara/Bakhautdin_Naqshband_Mausoleum/banner.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
@@ -441,7 +486,54 @@ const monuments = {
         "images/bahauddin-naqshband-mural.png"
       ],
     }
-  }
+  },
+  "buyuk-ipak-yoli-karvon-mural": {
+    uz: {
+      title: "Buyuk Ipak yo'li karvon devoriy surati",
+      desc: "Ushbu devoriy rasm Buyuk Ipak yo'li davridagi (IX–XVI asrlar) karvon manzarasini tasvirlaydi. Unda Xorazmdan Buxoroga kelin olib kelish marosimi aks etgan. Darvozalar qadimiy shahar kirishlarini, karvon esa savdo va madaniy aloqalarni ifodalaydi. Bu rasm tarix, an'ana va san'at uyg'unligidir.",
+      location: "Buxoro shahri (interyer devoriy san'at)",
+      period: "IX–XVI asrlar (tasviriy mavzu — Ipak yo'li davri)",
+      style: "Devoriy rasm; savdo karvoni va madaniy almashinuv ramzlari",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Caravan_in_the_desert.jpg",
+      gallery: [
+        "images/buyuk-ipak-yoli-karvon-mural.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Caravan_in_the_desert.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Camel_caravan_going_through_sand_in_the_Sahara_Desert.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Camels_Caravan.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sayfuddin_karavanserai_Bukhara.jpg"
+      ],
+    },
+    ru: {
+      title: "Фреска каравана Великого Шёлкового пути",
+      desc: "Эта роспись изображает караван эпохи Великого Шёлкового пути (IX–XVI века). Она символизирует свадебное путешествие — невесту везут из Хорезма в Бухару. Городские ворота отражают входы древних городов, а караван — торговлю и культурный обмен. Сочетание истории, традиций и искусства.",
+      location: "Бухара (интерьерная настенная роспись)",
+      period: "IX–XVI века (сюжет эпохи Великого Шёлкового пути)",
+      style: "Настенная роспись; торговый караван и культурный обмен",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Caravan_in_the_desert.jpg",
+      gallery: [
+        "images/buyuk-ipak-yoli-karvon-mural.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Caravan_in_the_desert.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Camel_caravan_going_through_sand_in_the_Sahara_Desert.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Camels_Caravan.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sayfuddin_karavanserai_Bukhara.jpg"
+      ],
+    },
+    en: {
+      title: "Silk Road caravan mural",
+      desc: "This mural depicts a Silk Road caravan scene (9th–16th centuries). It symbolizes a traditional wedding journey, where a bride is brought from Khorezm to Bukhara. The city gates represent ancient entrances of historic cities, while camels and travelers reflect trade routes and cultural exchange. A blend of history, tradition, and art.",
+      location: "Bukhara (interior wall mural)",
+      period: "9th–16th centuries (thematic — Silk Road era)",
+      style: "Wall mural; caravan and cultural-exchange symbolism",
+      img: "https://commons.wikimedia.org/wiki/Special:FilePath/Caravan_in_the_desert.jpg",
+      gallery: [
+        "images/buyuk-ipak-yoli-karvon-mural.png",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Caravan_in_the_desert.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Camel_caravan_going_through_sand_in_the_Sahara_Desert.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Camels_Caravan.jpg",
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sayfuddin_karavanserai_Bukhara.jpg"
+      ],
+    },
+  },
 };
 
 const monumentStats = {
@@ -472,6 +564,14 @@ const monumentStats = {
       uz: "Madrasa hovuz tomonidagi qadimiy oq tut (Morus alba) Labi Hovuz maydonining ramziy manzaralaridan biri. Yodgorlik lavhasidagi yozuvlarga ko'ra, daraxt 1477-yilda ekilgan; O'zbekiston qonunchiligiga muvofiq davlat tomonidan qo'riqlanadigan tabiiy yodgorlik sifatida belgilangan. Ko'p asrlik novdasi sayyohlar va mahalliy aholi uchun uchrashuv maskani bo'lib kelgan. Galereyada joylashgan surat — shu daraxt va uning atrofidagi muhitni aks ettiradi.",
       ru: "Древняя белая шелковица (Morus alba) перед медресе, обращённая к бассейну Ляби-Хауз, — один из символичных видов ансамбля. Согласно мемориальной табличке, дерево посажено в 1477 году; охраняется государством как природный памятник. Тень многовекового дерева традиционно была местом встреч туристов и горожан. Фото в галерее показывает это дерево и окружение.",
       en: "The ancient white mulberry (Morus alba) in front of the madrasah, facing the Lyabi-Hauz pool, is one of the ensemble's iconic views. According to the on-site plaque, the tree was planted in 1477 and is registered as a state-protected natural monument. For centuries its shade has been a natural meeting place for visitors and residents. The gallery image shows this tree and its setting."
+    }
+  },
+  "magoki-attori": {
+    year: "XII-XVI asrlar",
+    metric: {
+      uz: "Qatlamli tarixiy majmua: qadim zardushtiy joy va islomiy masjid birlashuvi",
+      ru: "Многослойный комплекс: бывшее зороастрийское святилище и ранняя исламская мечеть",
+      en: "Layered site: from pre-Islamic sanctuary to early Islamic mosque"
     }
   },
   "lyabi-hauz": {
@@ -528,6 +628,14 @@ const monumentStats = {
       uz: "Xonaqoh (1544–1545), Muzaffarxon masjidi, minora — majmuani shakllantiruvchi yirik inshootlar",
       ru: "Ханака (1544–1545), мечеть Музаффар-хана, минарет — ключевые постройки комплекса",
       en: "Notable structures: khanqah (1544–1545), Muzaffar Khan Mosque, minaret"
+    }
+  },
+  "buyuk-ipak-yoli-karvon-mural": {
+    year: "IX–XVI asrlar (sujet; zamonaviy bajarilish)",
+    metric: {
+      uz: "Xorazm — Buxoro yo'nalishi, to'ylar karvoni va qadimiy shahardarvozalar",
+      ru: "Маршрут Хорезм — Бухара; свадебный караван и древние городские ворота",
+      en: "Khorezm–Bukhara journey; wedding caravan and ancient city gates as motifs"
     }
   }
 };
@@ -730,9 +838,6 @@ function renderMonumentPage() {
 
   const params = new URLSearchParams(window.location.search);
   let id = params.get("id");
-  if (id === "magoki-attori") {
-    id = "nodir-devonbegi";
-  }
   if (id === "bohovuddin-naqshbandiy") {
     id = "bahauddin-naqshband";
   }
@@ -758,8 +863,7 @@ function renderMonumentPage() {
   title.textContent = data.title;
   document.title = `${data.title} | Madrasalar`;
   const heroImg = data.img;
-  const cacheBust = id === "bahauddin-naqshband" ? `?cb=${Date.now()}` : "";
-  hero.style.backgroundImage = `url('${heroImg}${cacheBust}')`;
+  hero.style.backgroundImage = `url('${heroImg}')`;
   hero.classList.toggle("monument-hero--bg-top", id === "nasriddin-statue");
   hero.classList.toggle("monument-hero--bahauddin", id === "bahauddin-naqshband");
   desc.innerHTML = `${data.desc}<br><br>${getExtendedNarrative(data)}`;
