@@ -394,7 +394,6 @@ const monuments = {
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
       gallery: [
         "images/sitorai-mokhi-khosa-mural-corner.png",
-        "images/sitorai-mokhi-khosa-mural-wide.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_2.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg"
@@ -409,7 +408,6 @@ const monuments = {
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
       gallery: [
         "images/sitorai-mokhi-khosa-mural-corner.png",
-        "images/sitorai-mokhi-khosa-mural-wide.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_2.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg"
@@ -424,7 +422,6 @@ const monuments = {
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
       gallery: [
         "images/sitorai-mokhi-khosa-mural-corner.png",
-        "images/sitorai-mokhi-khosa-mural-wide.png",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitorai_Mokhi-hosa.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_2.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Sitora,_Mokhi_Khosa_3.jpg"
@@ -441,7 +438,7 @@ const monuments = {
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
+        // "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_02.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_main_yard_summer_mosque.JPG",
@@ -459,7 +456,7 @@ const monuments = {
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
+        // "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_02.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_main_yard_summer_mosque.JPG",
@@ -477,7 +474,7 @@ const monuments = {
       img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
       gallery: [
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg",
-        "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
+        // "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_entrance_1.JPG",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_01.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahoutdin_Architectural_Complex_02.jpg",
         "https://commons.wikimedia.org/wiki/Special:FilePath/Bahaouddin_Naqshbandi_mausoleum_main_yard_summer_mosque.JPG",
